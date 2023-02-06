@@ -1,0 +1,23 @@
+.BoxInformacoes-swiper-1 {
+    width: 250px;
+    height: 403px;
+    background-color: #b7b3b3;
+}
+
+.BoxInformacoes-swiper-2 {
+    width: 250px;
+    height: 403px;
+    background-color: #b7b3b3;
+}
+
+.BoxInformacoes-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 5% 0px 7px; */
+    margin-top: 5%;
+    position: fixed;
+    z-index: 1;
+}

@@ -1,0 +1,21 @@
+.acess-titulo {
+    background-color: #1D64A8;
+}
+
+.acess-container {
+    background-color: #C9CEE2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+}
+
+.acess-btn:hover {
+    background-color: var(--cor-button-active-menu-ilha);
+    color: var(--cor-button-active-text-menu-ilha);
+    opacity: 1;
+    transform: translateY(0);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}

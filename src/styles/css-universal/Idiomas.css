@@ -1,0 +1,35 @@
+/* testando, tirar dps  */
+.idiomas-cobertura-gambiarra{ 
+    /* background-color: #e50d0d; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;
+}
+
+.idiomas-bg-idioma {
+    background-color: #C9CEE2;
+    /* width: 10%; */
+    /* height: 20vw; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.idiomas-bg-idioma > button {
+    /* margin-top: 15px; */
+    border: none;
+    border-radius: 10px;
+    /* height: 30px; */
+    cursor: pointer;
+}
+
+.idiomas-bg-idioma > button:hover {
+    background-color: #1D64A8;
+    color: #fff;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}

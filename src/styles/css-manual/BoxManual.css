@@ -1,0 +1,34 @@
+.BoxManual-container {
+    /* background-color: aquamarine; */
+    justify-content: center;
+    /* position: relative;
+    z-index: 1; */
+    /* margin: -15% 0% 0% 0%; */
+}
+
+.BoxManual-pdf {
+    background-color: #D2D2D2;
+    justify-content: space-around;
+    border-radius: 15px;
+    position: absolute;
+    /* margin-top: 5%; */
+    padding: 3% 0px 6% 0px;
+}
+
+.react-pdf__Document{
+    height: 100%;
+    overflow: auto;
+    /* background: aqua; */
+    text-align: center;
+    border: 3px solid;
+}
+
+/* sumir a escrita abaixo do pdf  */
+.react-pdf__Page__textContent.textLayer {
+    visibility: hidden;
+    display: none;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+    display: none;
+}
