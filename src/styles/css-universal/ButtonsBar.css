@@ -15,7 +15,8 @@
   /* align-items: flex-end; */
   /* flex-wrap: nowrap; */
   position: fixed;
-  align-content: flex-end;
+  top: initial;
+  /* align-content: flex-end; */
 }
 
 .buttons-bar-ilha {

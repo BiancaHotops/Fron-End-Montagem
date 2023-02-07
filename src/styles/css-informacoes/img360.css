@@ -12,16 +12,16 @@
     justify-content: space-around;
 }
 .img360-produto-name{
-    width: 277px;
-    height: 35px;
-    background-color: var(--cor-name-ferramenta);
-    border-radius: 30px;
+    width: 450px;
+    height: 65px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
+    font-size: 30px;
 }
 .img360-img-div{
     display: flex;
